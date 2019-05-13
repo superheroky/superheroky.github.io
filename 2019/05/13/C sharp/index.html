@@ -160,7 +160,7 @@
 <meta property="og:site_name" content="hapyy yy">
 <meta property="og:description" content="hapyy">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-13T03:15:00.956Z">
+<meta property="og:updated_time" content="2019-05-13T12:36:26.030Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="c#上机">
 <meta name="twitter:description" content="hapyy">
@@ -359,7 +359,7 @@
       
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">3</span></a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">4</span></a>
 
   </li>
         
@@ -502,7 +502,7 @@
                 
               
 
-              <time title="创建时间：2019-05-13 03:15:00" itemprop="dateCreated datePublished" datetime="2019-05-13T03:15:00Z">2019-05-13</time>
+              <time title="创建时间：2019-05-13 12:36:26" itemprop="dateCreated datePublished" datetime="2019-05-13T12:36:26Z">2019-05-13</time>
             
 
             
@@ -563,6 +563,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">using System;</span><br><span class="line">namespace Main</span><br><span class="line">&#123;</span><br><span class="line">    class Program</span><br><span class="line">    &#123;</span><br><span class="line">        static void Main(String[] args)</span><br><span class="line">        &#123;</span><br><span class="line">            float[] arr;</span><br><span class="line">            float temp;</span><br><span class="line">            int i = 0;</span><br><span class="line">            arr = new float[6];</span><br><span class="line">            for( i=0;i&lt;6;i++)</span><br><span class="line">            &#123;</span><br><span class="line">                arr[i] = float.Parse(Console.ReadLine());</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">         </span><br><span class="line">            for(int j=0;j&lt;5;j++)</span><br><span class="line">            &#123;</span><br><span class="line">                i= j+1;</span><br><span class="line">                for( ;i&lt;6;i++)</span><br><span class="line">                if( arr[j]&gt;arr[i])</span><br><span class="line">                &#123;</span><br><span class="line">                    temp = arr[j];</span><br><span class="line">                    arr[j] = arr[i];</span><br><span class="line">                    arr[i]= temp;</span><br><span class="line">                </span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">            for(int a = 0; a &lt; 6; a++) &#123;</span><br><span class="line">                Console.WriteLine(arr[a]);</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>(3)从键盘输入一个字符串，分别统计字符串中字符0，1，…9的字符个数。并计算这些数字字符对应整数的和</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">using System;</span><br><span class="line">namespace Main</span><br><span class="line">&#123;</span><br><span class="line">    class Program</span><br><span class="line">    &#123;</span><br><span class="line">        static void Main(String[] args)</span><br><span class="line">        &#123;</span><br><span class="line">            string str;</span><br><span class="line">            str = Console.ReadLine();</span><br><span class="line">            int count = 0,sum=0;</span><br><span class="line"></span><br><span class="line">            foreach (char x in str) &#123;</span><br><span class="line">                Console.WriteLine(x);</span><br><span class="line">                if (x &gt; &apos;0&apos; &amp;&amp; x &lt; &apos;9&apos;) &#123;</span><br><span class="line">                    count++;</span><br><span class="line">                    sum += Convert.ToInt32(x)-48;</span><br><span class="line">                    Console.WriteLine(sum);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">             </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            Console.WriteLine(&quot;&#123;0&#125;,&#123;1&#125;&quot;, count, sum);</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
       
     </div>
 
@@ -592,8 +593,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/05/13/前端2/" rel="next" title="前端笔记">
-                <i class="fa fa-chevron-left"></i> 前端笔记
+              <a href="/2019/05/13/python 入门/" rel="next" title="python 入门">
+                <i class="fa fa-chevron-left"></i> python 入门
               </a>
             
           </div>
@@ -601,6 +602,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/05/13/c sharp 窗体应用/" rel="prev" title="c#winform">
+                c#winform <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -662,7 +667,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
